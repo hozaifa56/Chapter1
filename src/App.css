@@ -1,0 +1,73 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #EDECEC;
+}
+.heads{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: larger;
+}
+.butt{
+    background-color: #FD6F00;
+    color: white;
+
+}
+.home{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+}
+#social{
+    font-size: xx-large;
+    
+}
+a{
+    color: inherit; /* Inherit the text color of the parent element */
+  text-decoration: none; /* Remove the underline */
+}
+.circle {
+    width: 15px; 
+    height: 15px;
+    background-color: lightgrey; /* Circle color */
+    border-radius: 50%; /* Make it a circle */
+}
+
+@media screen and (max-width: 768px) {
+    .heads {
+        display: flex;
+        align-items: flex-start; /* Align elements to the start of the container */
+        font-size: larger;
+    }
+
+    .hp2 {
+        margin-top: 70px;
+        height: 200px; /* Set a fixed height for the image container */
+        width: 200px; /* Set a fixed width for the image container */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .bgme{
+        height: 300px;
+    }
+
+    .home {
+        display: flex;
+        flex-direction: column;
+        /* Adjust font sizes for different elements as needed */
+    }
+
+    .socials {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    #filler{
+        height: 50%;
+        width: 50%;
+    }
+}
+
