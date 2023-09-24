@@ -10,7 +10,7 @@ export default function Footer() {
                 <img src={favicon} className='my-5' id='footerlogo' alt="My Image" />
             </div>
             <div>
-                <ul className="navbar-nav d-flex flex-row justify-content-evenly fs-5">
+                <ul className="navbar-nav d-flex flex-row justify-content-evenly flex-wrap fs-5">
                     <li className="nav-item">
                         <a className="nav-link active" aria-current="page" href="#">Home</a>
                     </li>
