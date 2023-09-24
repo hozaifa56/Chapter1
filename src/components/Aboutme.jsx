@@ -12,7 +12,7 @@ export default function Aboutme() {
                 <p className='text-wrap'>I am a Computer science engineering student studying specialization in Data science and artificial intelligence offered by IBM.
                     I am an astrophile, i love reading about space and the cosmos.
                     I am an amateur Astrophotographer and Core member of UPAAC(Uttar Pradesh Amateur Astronomers Club).<br />
-                    HTML | React.js | CSS | JAVA | Python | Javascript | IBM cloud | IBM cognos | Data Science | Artificial Intelligence | Machine Learning | Git | Figma
+                    HTML | React.js | CSS | JAVA | Python | Javascript | IBM cloud | IBM cognos | Data Science | Artificial Intelligence | Machine Learning | Git | Figma | Robotics.
                 </p>
                 <Slider width={95} topic={'HTML'}/>
                 <Slider width={80} topic={'CSS'}/>

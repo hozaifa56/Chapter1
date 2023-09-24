@@ -22,7 +22,7 @@ export default function Lander() {
                                     <a className="nav-link" href="#services">Services</a>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link" href="#">Projects</a>
+                                    <a className="nav-link" href="#myprojects">Projects</a>
                                 </li>
                                 <li className="nav-item">
                                     <a className="nav-link" href="#">Testimonials</a>
