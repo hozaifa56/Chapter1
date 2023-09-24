@@ -4,6 +4,10 @@ import Home from '../src/components/Home';
 import Aboutme from '../src/components/Aboutme';
 import Services from './components/Services';
 import ProjectsContainer from '../src/components/ProjectsContainer';
+import Testimonials from './components/Testimonials';
+import { ContactUs } from '../src/components/ContactUs';
+import Footer from './components/Footer';
+
 
 const projects = [
   { title: 'UPAAC Website', category: 'Frontend', description:' Website crafted during my internship at India Gandhi Planetarium.Integrated a user-friendly registration form via Jotform for efficient user engagement.', img:"../src/images/upaac.jpg", links:"https://upaac.netlify.app/" },
@@ -25,6 +29,9 @@ function App() {
       <Aboutme/>
       <Services/>
       <ProjectsContainer projects={projects} />
+      <Testimonials/>
+      <ContactUs/>
+      <Footer/>
     </div>
   )
 }

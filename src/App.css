@@ -1,104 +1,177 @@
-body{
-    margin: 0;
-    padding: 0;
-    background-color: #EDECEC;
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #edecec;
 }
-.heads{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: larger;
+.heads {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: larger;
 }
-.butt{
-    background-color: #FD6F00;
-    color: white;
-
+.butt {
+  background-color: #fd6f00;
+  color: white;
 }
 .butts {
-    background-color: lightgrey;
-    color: black;
+  background-color: lightgrey;
+  color: black;
+}
 
-  }
-  
-  /* Button styles when active (clicked) */
-  .butts.active {
-    background-color: #FD6F00;
-    color: white;
-  }
-.home{
-    display: flex;
-    align-items: center;
-    flex-direction: row;
-    justify-content: space-around;
+/* Button styles when active (clicked) */
+.butts.active {
+  background-color: #fd6f00;
+  color: white;
 }
-#social{
-    font-size: xx-large;
-    
+.home {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-around;
 }
-a{
-    color: inherit; /* Inherit the text color of the parent element */
+#social {
+  font-size: xx-large;
+}
+a {
+  color: inherit; /* Inherit the text color of the parent element */
   text-decoration: none; /* Remove the underline */
 }
 .circle {
-    width: 15px; 
-    height: 15px;
-    background-color: lightgrey; /* Circle color */
-    border-radius: 50%; /* Make it a circle */
+  width: 15px;
+  height: 15px;
+  background-color: lightgrey; /* Circle color */
+  border-radius: 50%; /* Make it a circle */
 }
-.servicecarousel{
+.servicecarousel {
+  display: flex;
+  flex-direction: row;
+  text-wrap: wrap;
+  justify-content: space-evenly;
+}
+.serv {
+  width: 25%;
+  background-color: lightgrey;
+  border-radius: 20px;
+}
+#review {
+  height: 50%;
+  width: 50%;
+}
+form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+label {
+  display: block;
+  font-size: large;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+textarea {
+  resize: vertical; /* Allow the textarea to be vertically resizable */
+}
+
+input[type="submit"] {
+  background-color: #fd6f00; /* Orange background color */
+  color: #fff; /* White text color */
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+input[type="submit"]:hover {
+  background-color: #ffa500; /* Darker orange color on hover */
+}
+.submit{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: #D9D9D9;
+}
+#footerlogo{
+    height: 6%;
+    width: 6%;
+}
+.footlogodiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.greyarea{
+    background-color: #424242;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+@media screen and (max-width: 768px) {
+  .heads {
+    display: flex;
+    align-items: flex-start; /* Align elements to the start of the container */
+    font-size: larger;
+  }
+
+  .hp2 {
+    margin-top: 70px;
+    height: 200px; /* Set a fixed height for the image container */
+    width: 200px; /* Set a fixed width for the image container */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .bgme {
+    height: 300px;
+  }
+
+  .home {
+    display: flex;
+    flex-direction: column;
+    /* Adjust font sizes for different elements as needed */
+  }
+
+  .socials {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+  }
+  #filler {
+    height: 50%;
+    width: 50%;
+  }
+  .servicecarousel {
+    display: flex;
+    flex-direction: column;
     text-wrap: wrap;
-    justify-content:space-evenly ;
-}
-.serv{
+  }
+  .serv {
+    width: 80%;
+    margin-top: 20px;
+  }
+  #review {
+    height: 100%;
+    width: 100%;
+  }
+  #footerlogo{
+    height: 25%;
     width: 25%;
-    background-color: lightgrey;
-    border-radius: 20px;
 }
-
-@media screen and (max-width: 768px) {
-    .heads {
-        display: flex;
-        align-items: flex-start; /* Align elements to the start of the container */
-        font-size: larger;
-    }
-
-    .hp2 {
-        margin-top: 70px;
-        height: 200px; /* Set a fixed height for the image container */
-        width: 200px; /* Set a fixed width for the image container */
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-    .bgme{
-        height: 300px;
-    }
-
-    .home {
-        display: flex;
-        flex-direction: column;
-        /* Adjust font sizes for different elements as needed */
-    }
-
-    .socials {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-    }
-    #filler{
-        height: 50%;
-        width: 50%;
-    }
-    .servicecarousel{
-        display: flex;
-        flex-direction: column;
-        text-wrap: wrap;
-    }
-    .serv{
-        width: 80%;
-        margin-top: 20px;
-    }
 }
-

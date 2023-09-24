@@ -25,13 +25,13 @@ export default function Lander() {
                                     <a className="nav-link" href="#myprojects">Projects</a>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link" href="#">Testimonials</a>
+                                    <a className="nav-link" href="#testimonials">Testimonials</a>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link" href="#">Contact</a>
+                                    <a className="nav-link" href="#contact">Contact</a>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="butt btn btn-warning" href="#">DOWNLOAD CV</a>
+                                    <a className="butt btn btn-warning" href="../src/images/cv.pdf" download="cv.pdf">DOWNLOAD CV</a>
                                 </li>
                             </ul>
                         </div>
