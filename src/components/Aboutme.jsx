@@ -21,6 +21,7 @@ export default function Aboutme() {
                 <Slider width={70} topic={'Javascript'}/>
                 <Slider width={70} topic={'ReactJS'}/>
                 <Slider width={76} topic={'Python'}/>
+                <Slider width={65} topic={'Robotics'}/>
 
 
             </div>
