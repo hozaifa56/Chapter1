@@ -31,7 +31,7 @@ export default function Lander() {
                                     <a className="nav-link" href="#contact">Contact</a>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="butt btn btn-warning" href="../src/images/cv.pdf" download="cv.pdf">DOWNLOAD CV</a>
+                                    <a className="butt btn btn-warning" href="/cv.pdf" download="cv.pdf">DOWNLOAD CV</a>
                                 </li>
                             </ul>
                         </div>
