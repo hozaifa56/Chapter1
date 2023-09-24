@@ -5,7 +5,7 @@ import '../App.css';
 function Project({ title, category, description,img,links }) {
   return (
     <div className={`card my-5 project ${category}`} style={{ width: '18rem' }}>
-        <img src={img} style={{height:'50%'}} className="card-img-top" alt="..."></img>
+        <img src={img} style={{height:'50%'}} className="card-img-top" alt="..."/>
       <div className="card-body">
         <h5 className="card-title">{title}</h5>
         <p className="card-text">
