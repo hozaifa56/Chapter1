@@ -17,6 +17,7 @@ const projects = [
   { title: 'Diabetes Prediction Model', category: 'Data Science',description:'Developed a gym website using HTML, CSS, bootstrap and JavaScript. User-friendly design ensures easy navigation while providing features like secure logins and BMI assessment.',img:'/dp.png',links:'https://github.com/hozaifa56/diabetespredictionDSModel' },
   { title: 'Login Page', category: 'UI Design',description:'Designed a visually appealing login page.',img:'/mickeyloginpractice1.png',links:'https://www.figma.com/file/nqRNuLtw9BetSH547HCkkn/mickeylogin?type=design&node-id=0%3A1&mode=design&t=tDwFkRfNTyUf2cOn-1' },
   { title: 'Apple Wesbite', category: 'UI Design',description:'Redesigned Apple website that changes page when clicked on different tabs.',img:'/apple.png',links:'https://www.figma.com/file/tRz7snEjMlqaSE0cSzXaYd/Untitled?type=design&node-id=0%3A1&mode=design&t=kQbuVqBSdFscB94v-1' },
+  { title: 'Know Weather With Hozaifa', category: 'Frontend',description:'https://knowweatherwithhozaifa.netlify.app/',img:'/weather.jpeg',links:'https://knowweatherwithhozaifa.netlify.app/' }
   
 ];
 function App() {

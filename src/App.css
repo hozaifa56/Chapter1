@@ -29,6 +29,7 @@ body {
   flex-direction: row;
   justify-content: space-around;
 }
+
 #social {
   font-size: xx-large;
 }
