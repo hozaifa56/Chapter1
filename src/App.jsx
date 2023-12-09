@@ -11,6 +11,7 @@ import Footer from './components/Footer';
 
 const projects = [
   { title: 'UPAAC Website', category: 'Frontend', description:' Website crafted during my internship at India Gandhi Planetarium.Integrated a user-friendly registration form via Jotform for efficient user engagement.', img:"/upaac.jpg", links:"https://upaac.netlify.app/" },
+  { title: 'Arduino based Star Tracker', category: 'Robotics',description:'Made a star tracker using arduino,RTC, Stepper motors and Gyroscope sensor.Amalgamated robotics with astronomy to develop a cost-effective prototype for a computerized mount.Achieved tracking accuracy upto 1degree error.',img:'/st.jpg',links:'/' },
   { title: 'Todo List(ReactJS)', category: 'Frontend',description:'Developed a Todo List web application using React. Implemented Reacts capabilities for dynamic task handling and enhanced user experience.',img:'/todo.jpeg',links:'https://todolisthozaifa.netlify.app/' },
   { title: 'NewsMonkey', category: 'Frontend',description:'Developed a dynamic news website using HTML, CSS, JavaScript , ReactJS and NEWSAPI. Real-time news feed for staying updated with the latest breaking news.',img:'/newsmonkey.jpeg',links:'https://github.com/hozaifa56/react-cwh-hozaifa-newsapp' },
   { title: 'Lifestyle Gym', category: 'Frontend',description:'Developed a gym website using HTML, CSS, bootstrap and JavaScript. User-friendly design ensures easy navigation while providing features like secure logins and BMI assessment.',img:'/gym.jpeg',links:'https://gymhozaifa.netlify.app/' },
@@ -18,6 +19,7 @@ const projects = [
   { title: 'Login Page', category: 'UI Design',description:'Designed a visually appealing login page.',img:'/mickeyloginpractice1.png',links:'https://www.figma.com/file/nqRNuLtw9BetSH547HCkkn/mickeylogin?type=design&node-id=0%3A1&mode=design&t=tDwFkRfNTyUf2cOn-1' },
   { title: 'Apple Wesbite', category: 'UI Design',description:'Redesigned Apple website that changes page when clicked on different tabs.',img:'/apple.png',links:'https://www.figma.com/file/tRz7snEjMlqaSE0cSzXaYd/Untitled?type=design&node-id=0%3A1&mode=design&t=kQbuVqBSdFscB94v-1' },
   { title: 'Know Weather With Hozaifa', category: 'Frontend',description:'Experience weather forecasts like never before with our intuitive weather app. Stay ahead of the elements with real-time updates and insightful weather data.',img:'/weather.jpeg',links:'https://knowweatherwithhozaifa.netlify.app/' }
+  
   
 ];
 function App() {

@@ -25,6 +25,10 @@ function ProjectsContainer({ projects }) {
                     onClick={() => handleButtonClick('all')}>All
                 </div>
                 <div
+                    className={`btn mx-2 butts ${filter === 'Robotics' ? 'active' : ''}`}
+                    onClick={() => handleButtonClick('Robotics')}>Robotics
+                </div>
+                <div
                     className={`btn mx-2 butts ${filter === 'Frontend' ? 'active' : ''}`}
                     onClick={() => handleButtonClick('Frontend')}>Frontend
                 </div>
