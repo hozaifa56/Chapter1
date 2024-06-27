@@ -37,10 +37,10 @@ function ProjectsContainer({ projects }) {
                     onClick={() => handleButtonClick('Frontend')}>Frontend
                 </div>
 
-                <div
+                {/* <div
                     className={`btn mx-2 butts ${filter === 'UI Design' ? 'active' : ''}`}
                     onClick={() => handleButtonClick('UI Design')}>UI Design 
-                </div>
+                </div> */}
             </div>
 
             <div id="projects-container" className='d-flex justify-content-around flex-wrap'>
