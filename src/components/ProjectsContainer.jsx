@@ -29,6 +29,10 @@ function ProjectsContainer({ projects }) {
                     onClick={() => handleButtonClick('Data Science')}>Data Science
                 </div>
                 <div
+                    className={`btn mx-2 butts ${filter === 'Data Visualization' ? 'active' : ''}`}
+                    onClick={() => handleButtonClick('Data Visualization')}>Data Visualization 
+                </div>
+                <div
                     className={`btn mx-2 butts ${filter === 'Robotics' ? 'active' : ''}`}
                     onClick={() => handleButtonClick('Robotics')}>Robotics
                 </div>
@@ -41,6 +45,7 @@ function ProjectsContainer({ projects }) {
                     className={`btn mx-2 butts ${filter === 'UI Design' ? 'active' : ''}`}
                     onClick={() => handleButtonClick('UI Design')}>UI Design 
                 </div> */}
+                
             </div>
 
             <div id="projects-container" className='d-flex justify-content-around flex-wrap'>
